@@ -1,0 +1,8 @@
+example:
+  # This is not trailing comment
+  - key1: value1                # This is a trailing comment
+  - key2: some_other_value_here # and another one
+  - key3: some_value            # either is this one
+  # This is guide line
+  - key4: something             # trailing comment again
+## Guide line too

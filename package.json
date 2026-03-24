@@ -1,0 +1,76 @@
+{
+    "name": "align-regex",
+    "displayName": "Align Regex",
+    "description": "Aligns selected lines of text by a regular expression.",
+    "version": "1.0.2",
+    "icon": "images/align_icon.png",
+    "publisher": "thangckt",
+    "license": "LICENSE.txt",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thangckt/vsc-align_regex.git"
+    },
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Formatters"
+    ],
+    "activationEvents": [
+        "onCommand:align.regex"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "align.regex",
+                "title": "Align Regex"
+            }
+        ],
+        "menus": {
+            "editor/context": [
+                {
+                    "command": "align.regex",
+                    "group": "1_modification",
+                    "when": "editorHasSelection"
+                }
+            ]
+        },
+        "keybindings": [
+            {
+                "command": "align.regex",
+                "key": "alt+shift+a",
+                "when": "editorHasSelection"
+            }
+        ],
+        "configuration": {
+            "type": "object",
+            "title": "Align Regex",
+            "properties": {
+                "align.regex.templates": {
+                    "type": "object",
+                    "scope": "resource",
+                    "markdownDescription": "Regular expression templates for alignment.",
+                    "default": { },
+                    "additionalProperties": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "tslint": "^5.8.0",
+        "@types/node": "7.0.43",
+        "@types/mocha": "^2.2.42"
+    }
+}
