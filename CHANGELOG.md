@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.0.3
+- Minor fixes
+
 ## 1.0.2
 - Revise the default regular expression templates.
 

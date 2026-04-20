@@ -1,0 +1,7 @@
+node_modules
+out
+dist
+rst2json/__pycache__
+.vscode-test/
+*.vsix
+.eslintrc.json

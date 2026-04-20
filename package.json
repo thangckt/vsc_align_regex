@@ -1,11 +1,17 @@
 {
     "name": "align-regex",
     "displayName": "Align Regex",
-    "description": "Aligns selected lines of text by a regular expression.",
-    "version": "1.0.2",
+    "keywords": [
+        "align",
+        "format",
+        "regex",
+        "regular expression"
+    ],
     "icon": "images/align_icon.png",
-    "publisher": "thangckt",
+    "description": "Aligns text lines by a regular expression.",
+    "version": "1.0.3",
     "license": "MIT",
+    "publisher": "thangckt",
     "repository": {
         "type": "git",
         "url": "https://github.com/thangckt/vsc-align_regex.git"
