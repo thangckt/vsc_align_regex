@@ -66,9 +66,6 @@ export class Block {
 
     /* check that we actually got a valid tab size and that it isn't set to a value < 1. */
     if (tabSize === undefined || tabSize < 1) {
-      /* give helpful error message on console */
-      console.log('Error [Align Regex]: Invalid tab size setting "editor.tabSize" for alignment.');
-
       /* assume tab size == 1 if tab size is missing */
       tabSize = 1;
     }

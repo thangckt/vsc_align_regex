@@ -1,5 +1,9 @@
 # Change Log
 
+
+## 1.0.4
+- Add a new default regular expression template for trailing comments with `%`.
+
 ## 1.0.3
 - Minor fixes
 

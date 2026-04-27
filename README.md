@@ -17,9 +17,10 @@ This extension aligns multiple lines of text by regular expressions. It can alig
 ```json
 {
     "align.regex.templates": {
+        "abc": "=|,|:",
         "Trailing comments #": "(?<=\\S.*)\\s+#",
         "Trailing comments //": "(?<=\\S.*)\\s+//",
-        "abc": "=|,|:"
+        "Trailing comments %": "(?<=\\S.*)\\s+%",
     }
 }
 ```

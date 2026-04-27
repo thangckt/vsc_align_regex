@@ -6,9 +6,10 @@ export function activate(context: vscode.ExtensionContext) {
 
   // Built-in default templates
   const defaultTemplates = {
+    "abc": "=|,|:",
     "Trailing comments #": "(?<=\\S.*)\\s+#",
     "Trailing comments //": "(?<=\\S.*)\\s+//",
-    "abc": "=|,|:"
+    "Trailing comments %": "(?<=\\S.*)\\s+%",
   };
 
   let lastInput: string;
