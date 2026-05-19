@@ -6,7 +6,7 @@ export function activate(context: vscode.ExtensionContext) {
 
   // Built-in default templates
   const defaultTemplates = {
-    "abc": "=|,|:",
+    "Multiple signs": "=|,|:",
     "Trailing comments #": "(?<=\\S.*)\\s+#",
     "Trailing comments //": "(?<=\\S.*)\\s+//",
     "Trailing comments %": "(?<=\\S.*)\\s+%",
