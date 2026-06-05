@@ -2,14 +2,14 @@
 
 This extension is originally based on [vscode-align-by-regex](https://github.com/janjoerke/vscode-align-by-regex)
 
-This extension aligns multiple lines of text by regular expressions. It can align anything, e.g., trailing comments, key-value pairs, or any text patterns defined by regular expressions.
+It allows you to align multiple lines of text using regular expressions. You can easily align trailing comments, key-value pairs, or any custom text pattern you define.
 
 ## Features
-
-- Align multiple lines of text by regular expressions.
-- Store regular expressions as templates for repeated use.
-- Run alignment from the editor context menu.
-- Support aligning multiple line selections and cursors simultaneously.
+- Regex-Based Alignment: Align multiple lines of text simultaneously using powerful regular expressions.
+- Versatile Formatting: Effortlessly handle trailing comments, assignment operators, key-value pairs, and complex code structures.
+- Fully Customizable: Define and save custom regex patterns as reusable templates to match your expectation.
+- Seamless Editor Integration: Run alignment commands instantly from the editor's context menu.
+- Multi-Cursor Support: Align multiple independent line selections and cursors at the same time.
 
 ## Extension Settings
 
