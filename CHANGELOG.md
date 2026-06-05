@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.0.7
+- Minor fixes
+
 ## 1.0.6
 - Minor fixes
 
